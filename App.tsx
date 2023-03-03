@@ -1,8 +1,10 @@
 import React from 'react';
 import {View, Text, StyleSheet} from 'react-native';
+
 interface Props {
   title: string;
 }
+
 const Header: React.FC<Props> = ({title}) => {
   return (
     <View style={styles.header}>
